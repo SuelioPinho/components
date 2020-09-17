@@ -8,11 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Components APP',
-      home: Scaffold(
-          appBar: AppBar(
-            title: Text('Components'),
-          ),
-          body: HomePageTemp()),
+      home: HomePageTemp(),
     );
   }
 }
